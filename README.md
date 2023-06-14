@@ -15,3 +15,4 @@ with each section representing a different library from the STL. The sections in
 - `<unordered_set>` - Unordered set
 - `<unordered_map>` - Unordered map
 - `<bitset>` - Bitset
+- `<cmath>` - Math
