@@ -390,3 +390,44 @@ int main() {
   
   return 0;
 }
+
+// <cmath> - Math Library Cheatsheet
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+  // Trigonometric functions
+  cout << "sin(0): " << sin(0) << endl;
+  cout << "cos(0): " << cos(0) << endl;
+  cout << "tan(0): " << tan(0) << endl;
+  
+  // Exponential and logarithmic functions
+  cout << "exp(1): " << exp(1) << endl;
+  cout << "log(2): " << log(2) << endl;
+  cout << "log10(100): " << log10(100) << endl;
+  
+  // Power functions
+  cout << "pow(2, 3): " << pow(2, 3) << endl;
+  cout << "sqrt(16): " << sqrt(16) << endl;
+  cout << "cbrt(27): " << cbrt(27) << endl;
+  
+  // Rounding and absolute functions
+  cout << "ceil(2.3): " << ceil(2.3) << endl;
+  cout << "floor(2.7): " << floor(2.7) << endl;
+  cout << "round(2.5): " << round(2.5) << endl;
+  cout << "abs(-10): " << abs(-10) << endl;
+  
+  // Minimum and maximum functions
+  cout << "min(5, 8): " << min(5, 8) << endl;
+  cout << "max(5, 8): " << max(5, 8) << endl;
+  
+  // Random number generation
+  srand(time(NULL));  // Seed the random number generator
+  
+  cout << "Random number between 0 and 1: " << (double)rand() / RAND_MAX << endl;
+  cout << "Random number between 1 and 10: " << (rand() % 10) + 1 << endl;
+  
+  return 0;
+}
